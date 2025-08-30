@@ -21,8 +21,8 @@ A simple Go application to fetch domain information from Tatsumi Crew API based 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/api-domain-scraper.git
-cd api-domain-scraper
+git clone https://github.com/TatsumiOfficial/HeartRev.git
+cd HeartRev
 ```
 
 2. Create the configuration file:
@@ -53,18 +53,18 @@ Replace `HDNS-02KBDMSGVB3S` with your actual API key from Tatsumi Crew.
 
 ### Method 1: Interactive Input
 ```bash
-go run main.go
+go run rev.go
 ```
 The program will prompt you to enter an IP address.
 
 ### Method 2: Command Line Argument
 ```bash
-go run main.go 34.117.176.22/16
+go run rev.go 34.117.176.22/16
 ```
 
 ### Method 3: Build and Run
 ```bash
-go build -o domain-scraper main.go
+go build -o domain-scraper rev.go
 ./domain-scraper 192.168.1.1/24
 ```
 
